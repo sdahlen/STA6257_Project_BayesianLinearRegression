@@ -51,7 +51,7 @@ could not be capture by SMN and can explain residual error asymmetry.
 
 <https://repository.kaust.edu.sa/server/api/core/bitstreams/6c7ea8b8-fb7c-48f9-b87a-7261d145a724/content>
 
-## References
+## References Week 2
 
 Klauenberg, Katy, et al. “A tutorial on Bayesian Normal linear
 regression.” Metrologia, vol. 52, no. 6, 18 Nov. 2015, pp. 878–892,
@@ -61,3 +61,24 @@ Rubio, Francisco J., and Marc G. Genton. “Bayesian linear regression
 with skew-symmetric error distributions with applications to survival
 analysis.” Statistics in Medicine, vol. 35, no. 14, 9 Feb. 2016, pp.
 2441–2454, https://doi.org/10.1002/sim.6897.
+
+## Week 3
+
+### Bayesian Linear Regression analysis of the effect of silica fume on concrete creep predictions and structures’ safety
+
+The goal of this paper is to predict the behavior of certain chemicals on concrete in a construction environment by using bayesian linear regression. This is important to predict before construction begins in the design stage to ensure the safety and longevity of the structure made of concrete. How this problem is solved is by looking at the mean square error and mean deviation of the creep compliance formula which predicts the creep of concrete, the deformation of concrete, which showed that the predictions were overestimating the creep of concrete. Then Bayesian Linear Regression is used to get a more accurate estimate of the creep of concrete by using the likelihood function from the database for this data as the priori and using updated knowledge for the posterior from a more updated database. As a result of using Bayesian Linear Regression, adding a correction coefficient of the creep compliance formula and considering the use of silica fume can more accurately predict the creep of concrete. 
+
+<https://www.sciencedirect.com/science/article/pii/S2452321620300184?via%3Dihub>
+
+### Determining passenger car equivalent (PCEs) for pretimed signalized intersections with severe motorcycle composition using Bayesian linear regression.
+
+The goal of this paper is to use Bayesian Linear Regression to determine the most efficient flow rate of vehicles while also considering the number of vehicles at an intersection. This is important to prevent traffic, reduce energy consumption, reduce air pollution, and more. In this paper, traffic data was collected from certain intersections with several hundreds of cycles of data from morning and night observations being collected for this study. This problem is solved by first looking at the likelihood function for the priori and the posterior from later knowledge. As a result, PCE values (or traffic-flow rate values) were determined for motorcycles, cars, and rickshaws. The PCE values were more accurate overall, but especially for the motorcycles. Some limitations of this study were that only three of the busiest intersections in Indonesia were studied; therefore, this study should be expanded further. Some other limitations include how the signals worked at the different intersections, the design of the intersections, and the movement within the intersections which weren’t considered. 
+
+<https://go-gale-com.ezproxy.lib.uwf.edu/ps/i.do?p=AONE&u=pens49866&id=GALE%7CA674089533&v=2.1&it=r&aty=ip>
+
+## References Week 3
+
+Sugiarto, Sugiarto, et al. “Determining passenger car equivalent (pces) for pretimed signalized intersections with severe motorcycle composition using Bayesian linear regression.” PLOS ONE, vol. 16, no. 9, 2 Sept. 2021, https://doi.org/10.1371/journal.pone.0256620. 
+
+Zgheib, Elise, and Wassim Raphael. “Bayesian linear regression analysis of the effect of silica fume on concrete creep predictions and structures’ safety.” Procedia Structural Integrity, vol. 22, 2019, pp. 25–32,
+https://doi.org/10.1016/j.prostr.2020.01.004. 
