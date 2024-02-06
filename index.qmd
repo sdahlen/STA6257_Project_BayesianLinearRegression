@@ -53,14 +53,14 @@ could not be capture by SMN and can explain residual error asymmetry.
 
 ## References Week 2
 
-Klauenberg, Katy, et al. “A tutorial on Bayesian Normal linear
-regression.” Metrologia, vol. 52, no. 6, 18 Nov. 2015, pp. 878–892,
-https://doi.org/10.1088/0026-1394/52/6/878.
+| Klauenberg, Katy, et al. “A tutorial on Bayesian Normal linear
+|       regression.” Metrologia, vol. 52, no. 6, 18 Nov. 2015, pp. 878–892,
+|       https://doi.org/10.1088/0026-1394/52/6/878.
 
-Rubio, Francisco J., and Marc G. Genton. “Bayesian linear regression
-with skew-symmetric error distributions with applications to survival
-analysis.” Statistics in Medicine, vol. 35, no. 14, 9 Feb. 2016, pp.
-2441–2454, https://doi.org/10.1002/sim.6897.
+| Rubio, Francisco J., and Marc G. Genton. “Bayesian linear regression
+|       with skew-symmetric error distributions with applications to survival
+|       analysis.” Statistics in Medicine, vol. 35, no. 14, 9 Feb. 2016, pp.
+|       2441–2454, https://doi.org/10.1002/sim.6897.
 
 ## Week 3
 
@@ -78,7 +78,38 @@ The goal of this paper is to use Bayesian Linear Regression to determine the mos
 
 ## References Week 3
 
-Sugiarto, Sugiarto, et al. “Determining passenger car equivalent (pces) for pretimed signalized intersections with severe motorcycle composition using Bayesian linear regression.” PLOS ONE, vol. 16, no. 9, 2 Sept. 2021, https://doi.org/10.1371/journal.pone.0256620. 
+| Sugiarto, Sugiarto, et al. “Determining passenger car equivalent (pces) for
+|       pretimed signalized intersections with severe motorcycle composition using
+|       Bayesian linear regression.” PLOS ONE, vol. 16, no. 9, 2 Sept. 2021,
+|       https://doi.org/10.1371/journal.pone.0256620. 
 
-Zgheib, Elise, and Wassim Raphael. “Bayesian linear regression analysis of the effect of silica fume on concrete creep predictions and structures’ safety.” Procedia Structural Integrity, vol. 22, 2019, pp. 25–32,
-https://doi.org/10.1016/j.prostr.2020.01.004. 
+| Zgheib, Elise, and Wassim Raphael. “Bayesian linear regression analysis of the
+|       effect of silica fume on concrete creep predictions and structures’ safety.”
+|       Procedia Structural Integrity, vol. 22, 2019, pp. 25–32,
+|       https://doi.org/10.1016/j.prostr.2020.01.004. 
+
+
+## Week 4
+
+### Genomic-Enabled Prediction Based on Molecular Markers and Pedigree Using the Bayesian Linear Regression Package in R
+
+The goal of this paper is to predict genetic values for genomic selection (GS) for plants and animals by using bayesian linear regression, specifically the BLR package in R. This is important for the development of gene selection in plants, animals and humans to prevent the risk of passing on genes that could cause illnesses. This is solved by using the prior distribution to solve the posterior distribution. The BLR package uses cross validation (for comparing models) while using gene data from wheat crops and is used to compare different methods. For example, functions such as rnorm() and runif() pull randomly from the distributions in the article. This use of the BLR package in R resulted in being able to compare different models if wanted (BRR vs BL) and can do so efficiently, regardless of how large the dataset(s) might be. One important takeaway from this article was that different priors will result in different results; however, it’s possible for it to result in the same estimates as well (such as when a gene is dependent on a certain marker). 
+
+<https://acsess.onlinelibrary.wiley.com/doi/pdfdirect/10.3835/plantgenome2010.04.0005>
+
+### Long-term bridge performance assessment using clusteringand Bayesian linear regression for vehicle load and strainmapping model
+
+The goal of this paper is to use Bayesian Linear Regression to determine the safety of a bridge. There are systems in place that assess bridge safety by assessing vehicle weight and speed, with vehicle weight being one of the main sources of bridge failures. Some methods were developed looking at specific weights on vehicles, like axle weights to determine bridge failure, as well as truck loads being on bridges. This is important due to bridges needing to assessed for safety and capacity management and with bayesian linear regression, this can reduce the uncertainty of the model. First, the article adds the vehicle weight to the normal distribution to make the prior distribution, which is the same form as the posterior distribution. Bayesian linear regression is used for the vehicle load and the strain on the bridge from the vehicle. This resulted in a correlation between the weight of a vehicle, along with the strain that the vehicle can put on the bridge. 
+
+<https://onlinelibrary-wiley-com.ezproxy.lib.uwf.edu/doi/epdf/10.1002/stc.3118>
+
+## References Week 4
+
+| Pérez, Paulino, et al. “Genomic‐enabled prediction based on molecular markers and
+|       pedigree using the Bayesian linear regression package in R.” The Plant Genome,
+|       vol. 3, no. 2, Sept. 2010, https://doi.org/10.3835/plantgenome2010.04.0005. 
+
+| Zhang, Xiaonan, et al. “Long‐term bridge performance assessment using clustering
+|       and Bayesian linear regression for vehicle load and strain mapping model.”
+|       Structural Control and Health Monitoring, vol. 29, no. 12, 5 Oct. 2022,
+|       https://doi.org/10.1002/stc.3118. 
